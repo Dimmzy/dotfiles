@@ -1,0 +1,14 @@
+!---------------------------------
+! Xft Settings
+! --------------------------------
+Xft.dpi:	192
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+Xft.autohint:   false
+Xft.lcdfilter:  lcddefault
+!---------------------------------
+! Rofi Settings
+!---------------------------------
+rofi.dpi: 220
