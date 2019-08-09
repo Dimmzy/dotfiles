@@ -52,7 +52,7 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = San Francisco Display Regular:size=11;1
+font-0 = roboto:size=12;1
 font-1 = FontAwesome:style=Regular:size=11;4
 
 modules-left = bspwm i3
