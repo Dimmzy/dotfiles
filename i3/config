@@ -123,6 +123,9 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
+# Workspace Assignments
+assign [class="firefox"] $ws2
+
 # switch to workspace
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -183,4 +186,5 @@ bindsym $mod+r mode "resize"
 
 # Starts Polybar
 exec_always --no-startup-id killall polybar; polybar -r mybar
-
+exec --no-startup-id termite
+exec --no-startup-id firefox
