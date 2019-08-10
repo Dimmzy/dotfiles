@@ -36,7 +36,7 @@ height = 40
 ;offset-y = 1%
 radius = 6.0
 fixed-center = false
-dpi = 192
+dpi = 331
 background = ${colors.background}
 foreground = ${colors.foreground}
 
@@ -52,12 +52,12 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = roboto:size=12;1
-font-1 = FontAwesome:style=Regular:size=11;4
+font-0 = roboto:size=8;1
+font-1 = FontAwesome:style=Regular:size=8;4
 
 modules-left = bspwm i3
 #modules-center = mpd
-modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
+modules-right = xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date
 
 tray-position = right
 tray-padding = 2
