@@ -9,6 +9,9 @@
 # You can also use any non-zero value if you'd like to have a border
 for_window [class=".*"] border pixel 0
 
+# Set 10 units wide gaps
+gaps inner 10
+
 # i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
@@ -189,7 +192,10 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Starts Polybar
+# Startup
 exec_always --no-startup-id killall polybar; polybar -r mybar
 exec --no-startup-id termite
 exec --no-startup-id firefox
+# Inputs
+exec "setxkbmap -layout us,il"
+exec "setxkbmap -option 'grp:alt_shift_toggle'"
