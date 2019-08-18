@@ -5,3 +5,5 @@ My Arch Linux enviornment configuration files. (WIP)
 - Terminal: Termite
 - File Manager: Ranger
 - Dmenu Replacement: Rofi  
+- Compositor: Compton
+- GTK-Theme: Arc-Dark
